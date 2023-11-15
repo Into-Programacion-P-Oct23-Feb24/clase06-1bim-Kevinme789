@@ -42,13 +42,17 @@ public class Ejemplo031 {
             case'i':
             case'o':
             case'u':
-                System.out.printf("%s %s con edad %d, es estudiante de %s\n", 
-                        nombre.toLowerCase(), apellido.toLowerCase(), edad, universidad.toUpperCase());
+                System.out.printf("%s %s con edad %d, es estudiante de "
+                        + "%s\n", 
+                        nombre.toLowerCase(), apellido.toLowerCase(), 
+                        edad, universidad.toUpperCase());
                 break;
             
             default:
-                System.out.printf("%s %s con edad %d, es estudiante de %s\n", 
-                        nombre.toUpperCase(), apellido.toUpperCase(), edad, universidad.toUpperCase());
+                System.out.printf("%s %s con edad %d, es estudiante de "
+                        + "%s\n", 
+                        nombre.toUpperCase(), apellido.toUpperCase(),
+                        edad, universidad.toUpperCase());
                 break;
                 
         }
